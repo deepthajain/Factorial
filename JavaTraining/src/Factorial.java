@@ -8,9 +8,9 @@ public class Factorial {
 		}
 	public static void caluclateFact() {
 		int number,factorial=1;
-		Scanner s= new Scanner(System.in);
+		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter a number");
-		number= s.nextInt();
+		number= sc.nextInt();
 		for(int i=1; i<= number; i++) {
 			factorial= factorial*i;
 		}
